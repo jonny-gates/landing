@@ -1,0 +1,17 @@
+.hero-banner {
+  padding: 0px 24px;
+  color: #fff;
+  background-size: cover;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner div h1 {
+  font-size: 80px;
+}
+
+.hero-banner p {
+  font-size: 40px;
+}

@@ -1,0 +1,36 @@
+/* Transparent button */
+
+.btn-transparent {
+  color: #fff;
+  border: 2px solid white;
+  padding: 8px 0;
+  border-radius: 4px;
+  display: block;
+  width: 300px;
+  text-align: center;
+  margin: 32px 0px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.btn-transparent:hover {
+  border: 2px solid #ebebeb;
+  color: #ebebeb;
+}
+
+.btn-grey {
+  background: #2f5874;
+  color: #fff;
+  padding: 8px 0px;
+  border-radius: 4px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin: 16px 0px;
+  transition: 0.3s;
+}
+
+.btn-grey:hover {
+  background: #575b86;
+}
+

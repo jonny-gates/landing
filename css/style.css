@@ -1,0 +1,63 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Import components */
+@import url('components/banners.css');
+@import url('components/buttons.css');
+@import url('components/grid-items.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Custom design below! */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: 'image-one feature-one' 'feature-two image-two' 'image-three feature-three';
+}
+
+@media ( max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-areas: 'image-one' 'feature-one' 'image-two' 'feature-two' 'image-three' 'feature-three';
+  }
+}
+
+.section-heading {
+  padding: 16px 0;
+}
+
+.section-heading h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.btn-grey:hover .grid-item {
+  background-color: red !important;
+}
+

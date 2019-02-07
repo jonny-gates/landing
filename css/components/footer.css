@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6867f6;
+  color: #fff;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.footer h2 {
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 40px;
+  margin: 0px 16px;
+  transition: 0.3s;
+}
+.footer a:hover {
+  color: #ebebeb;
+}
+
+.list-inline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline ul li {
+  display: inline-block;
+}

@@ -1,0 +1,53 @@
+.grid-item {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+ }
+
+ .grid-item img {
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ .grid-item p {
+  color: #505050;
+  font-size: 14px;
+ }
+
+ .grid-image:hover img{
+  opacity: 0;
+ }
+
+  .grid-image:hover {
+  background-image: url(../../images/me.png);
+  background-size: cover;
+  transition: 1s;
+ }
+
+ .grid-item h2 {
+  margin-bottom: 8px;
+ }
+
+.grid-feature-1 {
+  grid-area: feature-one;
+}
+
+.grid-feature-2 {
+  grid-area: feature-two;
+}
+
+.grid-feature-3 {
+  grid-area: feature-three;
+}
+
+.grid-image-1 {
+  grid-area: image-one;
+}
+
+.grid-image-2 {
+  grid-area: image-two;
+}
+
+.grid-image-3 {
+  grid-area: image-three;
+}
